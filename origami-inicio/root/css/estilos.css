@@ -1,0 +1,403 @@
+body{
+  color: #6d6e70;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 60px;
+}
+
+main {
+  box-shadow: 0 5px 8px rgba(0,0,0,.3);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 900px;
+}
+
+header,
+section,
+footer {
+  display: block;
+  position: relative;
+}
+
+footer{
+  background-color: #00adee;
+  color: #ffffff;
+  display: block;
+  height: 33px;
+}
+
+header nav {
+  background-color: #00adee;
+  display: block;
+  height: 50px;
+  position: relative;
+}
+
+header #foto {
+  background-image: url(../imagenes/fondo-portada.jpg);
+  height: 280px;
+}
+
+section #imagenfondo{
+  background-image: url(../imagenes/mosaico-fases.jpg);
+  background-repeat: no-repeat;
+  height: 224px;
+  width: 224px;
+  margin-right: 0%;
+}
+
+header aside {
+  background-color: #fff;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 224px;
+}
+
+header nav > a,
+header nav div {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+header nav > a {
+  background-color: #fff;
+  background-image: url(../imagenes/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 8px rgba(0,0,0,.3);
+  height: 50px;
+  margin-right: 30px;
+  text-indent: -9999px;
+  width: 196px;
+}
+
+header nav div a{
+  color: #fff;
+  margin-right: 8px;
+  padding: 10px;
+  text-decoration: none;
+}
+header nav div a:hover{
+  -moz-transition: all 0.5 ease;
+  -webkit-transition: all 0.5s ease;
+  background-color: #fff;
+  color: #404041;
+  transition: all 0.5s ease;
+}
+
+header #foto span {
+  background-color: rgba(64,64,65,.6);
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-size: 42px;
+  left: 0;
+  padding: 15px 0 15px 120px;
+  position: absolute;
+  right: 0;
+}
+header aside div a {
+  color: #6d6e70;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+header aside div a span {
+  color: #00adee;
+  display: block;
+  font-size: 18px;
+}
+
+header aside div a p {
+  -moz-transition: all 0.5 ease;
+  -webkit-transition: all 0.5s ease;
+  display: block;
+  margin: 0;
+  transition: all 0.5s ease;
+}
+
+header aside div a:hover{
+  -moz-transition: all 0.5 ease;
+  -webkit-transition: all 0.5s ease;
+  background-color: #404041;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+header aside > a{ /* Botón de hacer mas */
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+header aside div{
+  height: 298px;
+  overflow: auto;
+}
+
+.columna {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 30px;
+  position: relative;
+  width: 50%;
+}
+
+.columnaf{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 0%;
+  position: relative;
+  width: 224px;
+}
+
+.link-fases a{
+  color: #00adee;
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 12px;
+  position: relative;
+  text-align: center;
+  width: 145px;
+}
+
+.link-fases a:hover{
+  background-color: #404041;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.columnaf span{
+  background-color: #00adee;
+  color: #fff;
+  display: inline-block;
+  font-size: 36px;
+  height: 40px;
+  margin: 0%;
+  text-align: center;
+  width: 224px;
+}
+
+.columnaf p{
+  color: #404041;
+  margin: 30px;
+  text-align: center;
+}
+
+.botonf{
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  float: right;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+}
+
+.botonf:hover{
+  color: #404041;
+  transition: all 0.5s ease;
+}
+
+.columnaI{
+  border-left: 5px solid #00adee;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  height: 665px;
+  position: relative;
+  width: 550px;
+}
+
+.uno{
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  font-size: 61px;
+  margin-left: 50px;
+  padding: 2px 15px 2px 15px;
+  position: absolute;
+  text-align: center;
+}
+
+.columnaI span{
+  color: #404041;
+  display: block;
+  font-size: 34px;
+  margin: 60px 60px 0px 60px;
+  padding-left: 60px;
+  text-decoration: none;
+}
+
+.columnaI p{
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin: 0px 0px 0px 60px;
+  padding-left: 60px;
+}
+
+section #iconod{
+  background-image: url(../imagenes/icono-descargar.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+section div #iconod{
+  background-position: 10px 2px;
+}
+
+section div #iconod:hover{
+  background-position: 10px -40px;
+}
+
+.columnaI a{
+  text-decoration: none;
+}
+
+.columnaI p:hover{
+  color: #404041;
+}
+
+.columnaI h2{
+  color: #00adee;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 60px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  text-decoration: none;
+}
+
+.columnaI a p{
+  color: #6d6e70;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+section {
+  overflow: auto;
+}
+
+
+.columna h1,
+.columna h2,
+.columna p {
+  display: block;
+  font-weight: normal;
+  padding-left: 40px;
+  position: relative;
+}
+
+.columna h1{
+  color: #404041;
+  font-size: 36px;
+  margin: 0 0 5px;
+}
+
+.columna p {
+  margin: 0 0 30px;
+}
+
+.columna h2 {
+  color: #6d6e70;
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.bullet {
+  background-image: url(../imagenes/bullet.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+footer div a{
+  background-image: url(../imagenes/iconos-sociales.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 33px;
+  overflow: hidden;
+  text-indent: 100px;
+  transition: all 0.5s ease;
+  width: 33px;
+}
+
+footer h4{
+  background-color: #404041;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0%;
+  padding: 8px 35px 9px;
+  position: relative;
+}
+
+footer span{
+  color: #fff;
+  display: inline-block;
+  padding-left: 60px;
+  position: relative;
+}
+
+footer span a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer span a:hover{
+  text-decoration: underline;
+}
+
+footer div{
+  background-color: #404041;
+  display: block;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 10px;
+}
+
+footer div #faceboook{
+  background-position: 11px 5px;
+}
+
+footer div #facebook:hover{
+  background-position: 11px -28px;
+}
+
+footer div #youtube{
+  background-position: -40px 5px;
+}
+
+footer div #youtube:hover{
+  background-position: -40px -28px;
+}
+
+footer div #twitter{
+  background-position: -89px 5px;
+}
+
+footer div #twitter:hover{
+  background-position: -89px -28px;
+}
